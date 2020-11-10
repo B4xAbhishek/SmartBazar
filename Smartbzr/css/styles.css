@@ -1,0 +1,229 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  /* font-size: 1.7; */
+  color: #777;
+  box-sizing: border-box;
+}
+
+button {
+  color: rgba(56, 213, 82, 1);
+  z-index: 5;
+  font-size: 5rem;
+  color: white;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 1.5rem;
+  background-color: rgba(56, 213, 82, 1);
+  font-family: sans-serif;
+}
+
+.header {
+  background-image: url("https://images.unsplash.com/photo-1591925873175-1fd08fb8375e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  opacity: 0.9;
+}
+
+.logo {
+  width: 35rem;
+  margin: 7rem;
+}
+.logo__image {
+  display: inline-block;
+}
+
+.line-wrapper {
+  display: inline-block;
+  position: relative;
+  top: -52px;
+  left: 332px;
+}
+
+.tagline {
+  z-index: 5;
+  margin: 10rem;
+  color: white;
+}
+
+.tagline__one {
+  z-index: 5;
+  font-size: 10rem;
+  margin-bottom: 10rem;
+  font-weight: 900;
+}
+
+.tagline__two {
+  z-index: 5;
+  font-size: 5rem;
+  color: white;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.Learnmore {
+  margin: 1rem;
+  color: rgba(56, 213, 82, 1);
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 10rem;
+}
+
+.tagline__three {
+  z-index: 5;
+  font-size: 10rem;
+  margin-bottom: 10rem;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: "Hind";
+  letter-spacing: 2;
+  line-height: 1.7;
+}
+
+.services {
+  margin: 10rem;
+  font-family: "Segoe UI";
+}
+
+.viewmore {
+  line-height: 1.4;
+  margin: 1rem;
+  color: rgba(56, 213, 82, 1);
+  text-decoration: none;
+}
+
+.card {
+  margin-top: 20rem;
+  font-size: 17rem;
+}
+.card__one {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  font-size: 17px;
+  margin: 7rem;
+  padding: 10rem;
+}
+
+.card__one > p {
+  margin: 5rem;
+}
+
+.card__one:hover {
+  background-color: rgba(56, 213, 82, 1);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px 10px grey;
+}
+
+.phone__image {
+  margin-left: -10rem;
+  margin-top: -10rem;
+  width: 638px;
+  height: 600px;
+}
+
+.tagline__four {
+  letter-spacing: 2;
+  font-size: 50px;
+  margin: 15rem;
+  color: black;
+}
+
+.tagline__comment {
+  background-color: #fafafa;
+}
+
+.person__image {
+  margin-left: 10rem;
+  margin-bottom: 10rem;
+}
+
+#offers {
+  margin-top: 10rem;
+}
+
+.tagline__five {
+  margin-left: 15rem;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1.4;
+  line-height: 2;
+}
+
+.image {
+  z-index: -1;
+  margin-top: -3rem;
+}
+
+.tagline__six {
+  z-index: 5;
+  font-size: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 10rem;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: "Hind";
+  letter-spacing: 2;
+  line-height: 1.7;
+}
+
+.footer__container {
+  margin: 20px 100px 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 70px;
+  line-height: 120%;
+}
+
+h2 {
+  color: black;
+  margin: 10px 10px 14px 6px;
+}
+
+.logo li {
+  display: flex;
+  color: black;
+  padding: 10px;
+  list-style: none;
+}
+
+.media {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.media li {
+  color: black;
+  list-style: none;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 500px) {
+  .learnmore {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .tagline__two {
+    display: none;
+  }
+}
